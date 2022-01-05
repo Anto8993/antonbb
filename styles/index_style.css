@@ -1,4 +1,6 @@
-
+body{
+    overflow: hidden;
+}
 
 #bg_back{
 background-image: url(/pics/bg_back.svg);
