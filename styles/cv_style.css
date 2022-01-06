@@ -1,0 +1,43 @@
+#cv_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    gap: 10%;
+    padding-block: clamp(2rem, 8%, 6rem);
+    margin: 5%;
+}
+
+.label{
+grid-column: 1/2;
+grid-row: 1/2;
+margin-right: 10%;
+}
+
+#container_right{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-left: -10%;
+}
+
+.label img{
+    padding: 6%;
+    border-radius: 50px;
+}
+
+.label p{
+    padding:0 6% 0 6% ;
+    margin-bottom: 6%;
+    line-height: 130%;
+    
+}
+
+p{
+    font-size: clamp(1rem, 1.4vw, 1.6rem);
+}
+h3{
+    font-size: clamp(1.2rem, 1.7vw, 2rem);
+}
+h2{
+    font-size: clamp(1.4rem, 1.9vw, 2.2rem);
+ 
+}

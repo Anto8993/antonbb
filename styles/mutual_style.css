@@ -13,6 +13,12 @@ img{
     max-width: 100%;
 }
 
+.label{
+    background-color: #F7FCFD;
+    box-shadow: 15px 15px 37px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+
 /* ------HEADER------ */
 
 .banner {
@@ -97,9 +103,14 @@ a:hover{
 h1{
     font-family: 'Exo 2', sans-serif;
     color: #EF4749;
-    font-size: 2.5rem;
+    font-size: clamp(2.2rem, 3.5vw, 3rem);
+
     margin-top: 5%;
     margin-left: 10%;
+}
+h2{
+    font-family: 'Exo 2', sans-serif;
+    color: #EF4749;
 }
 h3{
     font-family: 'Cormorant Garamond', serif;
@@ -120,6 +131,7 @@ p{
     padding: 8px 12px;
     text-decoration: none;
 }
+
 .btn:hover{
     border-color: #55BCC9;
 }
