@@ -148,7 +148,7 @@ p{
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color:transparent; /* Set a background color */
-    cursor: pointer; /* Add a mouse pointer on hover */
+    cursor: default; /* Add a mouse pointer on hover */
     opacity: 0;
     transition: opacity 0.5s;
   }
