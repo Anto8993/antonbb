@@ -11,14 +11,14 @@
         document.documentElement.style.setProperty("--x", x);
         document.documentElement.style.setProperty("--y", y);
         raf = null;
-      };
+      }
 
 
 //Get the button:
-mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
 //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -29,14 +29,10 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.opacity = "1";
    
-  } else {
+  } 
+  else {
     mybutton.style.opacity = "0";
-   
-
-  }
-
-
-
+  };
 }
 
 // When the user clicks on the button, scroll to the top of the document
@@ -45,4 +41,4 @@ function topFunction() {
   document.body.scrollIntoView({
     behavior: "smooth",
   });
-};
+}

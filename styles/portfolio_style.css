@@ -5,9 +5,9 @@ background-position: left center;
 } */
 body{
     background: #D1EDF4 url(pics/bg_port-09.svg) no-repeat center center; 
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   background-size: cover;
 }
 
